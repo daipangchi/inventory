@@ -1,0 +1,52 @@
+.page-inventory-edit .form-control-label{
+  text-align: right;
+}
+
+.page-inventory-images {
+  #files img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
+
+.page-inventory-index {
+  #inventory-table {
+    thead th {
+      cursor: pointer;
+    }
+    tfoot td:first-child input {
+      visibility: hidden;
+    }
+
+    td.column_name,
+    th.column_name {
+      //width: 700px;
+    }
+  }
+
+  #table-search-bar {
+    display: table-header-group;
+
+    td {
+      padding: 0;
+      height: 0;
+      border-bottom: 1px solid #bbb;
+
+      &:first-child {
+        border-top: 1px solid #bbb;
+        border-left: 1px solid #bbb;
+      }
+
+      &:last-child {
+        border-right: 1px solid #bbb;
+      }
+
+      input {
+        border: none;
+        border-top: 1px solid #bbb;
+        padding: 4px 8px;
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+These files are used to enforce structure for the json data column on ChangeLog Model.

@@ -1,0 +1,45 @@
+All API calls return success response or fault. All success responses contain property "success" with value "true".
+Also success responses can contain different properties depending on type of the request. (i.e "file", "products", "endList", "orders" etc)
+
+All fault contain properties "faultcode" and "message". Under you can see description for all type of the error.
+   ___________________________________________________________________________________________________________________
+  | faultcode |     description                                                                                       |
+   ___________________________________________________________________________________________________________________
+  |    7001   |     Cannot create quote. Please check order items.                                                    |
+  |    7002   |     Cannot create an order. Please check order items.                                                 |
+  |    7003   |     Customer address data is empty. Please contact with administrator.                                |
+  |    7004   |     One item of products do not have SKU. Please check order items.                                   |
+  |    7005   |     Cannot add product to quote. Please check order items.                                            |
+  |    7006   |     Cannot save quote. Please check order items.                                                      |
+  |    7007   |     Address not belong customer. Please contact with administrator.                                   |
+  |    7008   |     Customer address invalid. Please contact with administrator.                                      |
+  |    7009   |     Address is not set. Please contact with administrator.                                            |
+  |    7010   |     Invalid address id. Please contact with administrator.                                            |
+  |    7011   |     Shipping address is not set. Please contact with administrator.                                   |
+  |    7012   |     Shipping method is not available. Please contact with administrator.                              |
+  |    7013   |     Shipping method is not set. Please contact with administrator.                                    |
+  |    7014   |     Payment method empty. Please contact with administrator.                                          |
+  |    7015   |     Billing address is not set. Please contact with administrator.                                    |
+  |    7016   |     Method not allowed. Please contact with administrator.                                            |
+  |    7017   |     Payment method is not set. Please contact with administrator.                                     |
+  |    7018   |     Invalid checkout type. Please contact with administrator.                                         |
+  |    7019   |     Guest checkout is not enabled. Please contact with administrator.                                 |
+  |    7020   |     Order does not exist. Please check order increment id.                                            |
+  |    7021   |     Order data invalid. Please check order data.                                                      |
+  |    7022   |     One order item have not price. Please check order items.                                          |
+  |    7023   |     Wrong customer password. Please check customer data.                                              |
+  |    7024   |     Order already canceled. Please check order data.                                                  |
+  |    7025   |     Quote item error. Please check order items.                                                       |
+  |    7026   |     Product does not exist. Please check order items.                                                 |
+  |    7027   |     Product price changed. Please check order items.                                                  |
+  |    7028   |     API version not available. Please use API V2.                                                     |
+  |    7029   |     Order already exist. Please check order increment id.                                             |
+  |    8801   |     Wrong profile ID is set. Please contact with administrator.                                       |
+  |    8802   |     Profile is disabled. Please contact with administrator.                                           |
+  |    8803   |     Profile is already started and file will be generated. Please try later.                          |
+  |    8804   |     Profile has been stopped. Try run profile again.                                                  |
+  |    8805   |     File has been generated and does not exist in system. Try run profile again.                      |
+  |    8806   |     Profile has not been running. Try run profile.                                                    |
+  |    8807   |     Profile has wrong type. Please contact with administrator.                                        |
+  |    8808   |     Profile cannot be running. Please contact with administrator.                                     |
+   -------------------------------------------------------------------------------------------------------------------

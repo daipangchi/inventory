@@ -1,0 +1,135 @@
+{
+    "GetMatchingProductForIdResponse": {
+        "-xmlns": "http://mws.amazonservices.com/schema/Products/2011-10-01",
+        "GetMatchingProductForIdResult": {
+            "-Id": "B00005LEN4",
+            "-IdType": "ASIN",
+            "-status": "Success",
+            "Products": {
+                "-xmlns": "http://mws.amazonservices.com/schema/Products/2011-10-01",
+                "-xmlns:ns2": "http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd",
+                "Product": {
+                    "Identifiers": {
+                        "MarketplaceASIN": {
+                            "MarketplaceId": "ATVPDKIKX0DER",
+                            "ASIN": "B00005LEN4"
+                        }
+                    },
+                    "AttributeSets": {
+                        "ns2:ItemAttributes": {
+                            "-xml:lang": "en-US",
+                            "ns2:Binding": "Camera",
+                            "ns2:Brand": "Nikon",
+                            "ns2:Color": "Black",
+                            "ns2:Creator": {
+                                "-Role": "Designer",
+                                "#text": "NIKON"
+                            },
+                            "ns2:DisplaySize": {
+                                "-Units": "inches",
+                                "#text": "2.7"
+                            },
+                            "ns2:Feature": [
+                                "Lens not zoomable",
+                                "Focal Length : 50 mm, Minimum Focus Distance - 1.5 ft.( 0.45 m)",
+                                "High-speed normal lens",
+                                "Great for travel and for shooting full-length portraits in available light",
+                                "Distortion-free images with superb resolution and color rendition",
+                                "Provides high-contrast images even at maximum aperture",
+                                "Format Compatibility: Nikon FX/35mm Film and Nikon DX",
+                                "Autofocus operation with this lens is possible with Nikon autofocus cameras (except the F3AF); manual focus possible via separate focusing ring with all Nikon SLRs. Compatibility includes D3200 and D5200 cameras."
+                            ],
+                            "ns2:ItemDimensions": {
+                                "ns2:Height": {
+                                    "-Units": "inches",
+                                    "#text": "1.54"
+                                },
+                                "ns2:Length": {
+                                    "-Units": "inches",
+                                    "#text": "2.50"
+                                },
+                                "ns2:Width": {
+                                    "-Units": "inches",
+                                    "#text": "2.50"
+                                },
+                                "ns2:Weight": {
+                                    "-Units": "pounds",
+                                    "#text": "0.34"
+                                }
+                            },
+                            "ns2:IsAutographed": "false",
+                            "ns2:IsEligibleForTradeIn": "true",
+                            "ns2:IsMemorabilia": "false",
+                            "ns2:ItemPartNumber": "JAA013DA",
+                            "ns2:Label": "Nikon",
+                            "ns2:ListPrice": {
+                                "ns2:Amount": "131.95",
+                                "ns2:CurrencyCode": "USD"
+                            },
+                            "ns2:Manufacturer": "Nikon",
+                            "ns2:MaterialType": "Metal mount",
+                            "ns2:Model": "2137",
+                            "ns2:OpticalZoom": {
+                                "-Units": "multiplier_x",
+                                "#text": "3"
+                            },
+                            "ns2:PackageDimensions": {
+                                "ns2:Height": {
+                                    "-Units": "inches",
+                                    "#text": "3.54"
+                                },
+                                "ns2:Length": {
+                                    "-Units": "inches",
+                                    "#text": "4.29"
+                                },
+                                "ns2:Width": {
+                                    "-Units": "inches",
+                                    "#text": "3.94"
+                                },
+                                "ns2:Weight": {
+                                    "-Units": "pounds",
+                                    "#text": "0.62"
+                                }
+                            },
+                            "ns2:PackageQuantity": "1",
+                            "ns2:PartNumber": "2137",
+                            "ns2:ProductGroup": "Photography",
+                            "ns2:ProductTypeName": "CAMERA_LENSES",
+                            "ns2:Publisher": "Nikon",
+                            "ns2:SmallImage": {
+                                "ns2:URL": "http://ecx.images-amazon.com/images/I/51gSPjPgz7L._SL75_.jpg",
+                                "ns2:Height": {
+                                    "-Units": "pixels",
+                                    "#text": "65"
+                                },
+                                "ns2:Width": {
+                                    "-Units": "pixels",
+                                    "#text": "75"
+                                }
+                            },
+                            "ns2:Studio": "Nikon",
+                            "ns2:Title": "Nikon AF FX NIKKOR 50mm f/1.8D Lens with Auto Focus for Nikon DSLR Cameras"
+                        }
+                    },
+                    "Relationships": {
+                        "VariationParent": {
+                            "Identifiers": {
+                                "MarketplaceASIN": {
+                                    "MarketplaceId": "ATVPDKIKX0DER",
+                                    "ASIN": "B01DYYBAMU"
+                                }
+                            }
+                        }
+                    },
+                    "SalesRankings": {
+                        "SalesRank": {
+                            "ProductCategoryId": "173565",
+                            "Rank": "5"
+                        }
+                    }
+                }
+            }
+        },
+        "ResponseMetadata": { "RequestId": "8353aa49-b684-4c58-8b5f-75ea144e9c01" }
+    }
+}

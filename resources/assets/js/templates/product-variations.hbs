@@ -1,0 +1,25 @@
+<script id="product-variations-template" type="text/x-handlebars-template">
+
+    <table class="table">
+        <thead>
+        <tr>
+            {{#each keys}}
+                <th>{{this}}</th>
+            {{/each}}
+        </tr>
+        </thead>
+        <tbody>
+        {{#each variations}}
+            <tr>
+                {{#each ../keys as |key|}}
+                    <td>
+                        <input class="form-control form-control-sm" type="text" name="variations[{{@../index}}][{{key}}]"
+                               value="{{lookup ../this key}}">
+                    </td>
+                {{/each}}
+            </tr>
+        {{/each}}
+        </tbody>
+    </table>
+
+</script>
